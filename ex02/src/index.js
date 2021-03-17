@@ -10,6 +10,6 @@ function myFunction(myObj) {
     var shoesValue = myClothes.shoes;
     return {hatValue, shirtValue, shoesValue};
 }
-console.log(myFunction());
+console.log(myFunction(myClothes));
 //Only change code above this line
 module.exports = myFunction(myClothes);
